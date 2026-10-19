@@ -1,5 +1,5 @@
 # Modelling the Effects of Climate Change on Community Mental Health Care Service Use in Australia
-**Master's Dissertation Project - UNSW 2026**
+**Master's Dissertation Project Summary - UNSW 2026**
 
 ### Research Aims
 
@@ -35,5 +35,5 @@ Using this as a baseline, the predictor variables were modelled and analysed for
 2. Little to no significant association was found between rising ambient temperatures/high heat days and mental health service use. 
 3. During the COVID-19 Emergency period, these effects were no longer significant. 
 
-
+*The full project can be accessed from thesis.pdf*
 
