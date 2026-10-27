@@ -24,7 +24,11 @@ emergency period
 2. *Australian Climate Observations Reference Network - Surface Air Temperature* (ACORN-SAT): for weather station records suitable for climate change detection
 3. *Emergency Events Database* (EM-DAT): for historical data on Australian disasters
 
-**Statistical Methods**
+**Missing Data - Multiple Imputation**
+
+Due to missing temperatures in the ACORN-SAT dataset, a series of imputation strategies were compared, including a complete case analysis, time-series imputation and various multiple imputation methods. Ultimately, multiple imputation using a multilevel predictive mean matching method was chosen to best account for the clustering of values around weather stations, to preserve the distributional shape of observed data and for the pooling of results. 
+
+**Statistical Analyses**
 
 For the core analyses, a time-series regression was conducted separately for each state/territory in Australia. 
 This involved fitting a quasi-poisson regression model to Medicare data, accounting for seasonality and long-term trends using Fourier sine/cosine pairs and a linear function respectively. 
